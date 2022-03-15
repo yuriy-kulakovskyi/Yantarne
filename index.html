@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- So meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Yantarne.FM</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/657ceb94fb.js" crossorigin="anonymous"></script>
+  <!-- CSS Medias -->
+  <link rel="stylesheet" href="assets/css/medias.css">
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <meta name="msapplication-config" content="favicon/browserconfig.xml">
+  <meta name="theme-color" content="#f5f5f5">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-slider.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  <!-- Custom scrollbar -->
+  <link rel="stylesheet" href="assets/css/scroll.css">
+  <!-- Custom styles for this site -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Animations -->
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+
+<body>
+  <div class="recently alert">
+    <div id='rbcloud_recent8392' data-cnt='10'></div>
+    <script src='https://c28.radioboss.fm/w/recent.js?u=346&amp;wid=8392'></script>
+    <button id="close" class="closeBtn">Close</button>
+  </div>
+
+  <div class="address__info alert">
+    <p class="info">yurakulakovskyi@gmail.com</p>
+    <button id="close1" class="closeBtn">Close</button>
+  </div>
+
+  <div class="phone__info alert">
+    <p class="info">+38 (068) 978 9189</p>
+    <button id="close2" class="closeBtn">Close</button>
+  </div>
+
+  <div class="location__info alert">
+    <p class="info">Kalyniv</p>
+    <button id="close3" class="closeBtn">Close</button>
+  </div>
+
+  <!-- Dimmed background overlay -->
+  <div class="background"></div>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container mine">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#home" class="navbar-brand"><i class="fa fa-headphones fa-fw"></i> <strong>Yantarne</strong> FM</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#partners"><i class="fa fa-info fa-fw"></i> Partners</a></li>
+          <li id="showList"><a href="#schedule"><i class="fa fa-calendar fa-fw"></i> Recently played</a></li>
+          <li><a href="#footer"><i class="fa fa-envelope-o fa-fw" id="scroll"></i> Send message</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body -->
+  <header class="section intro">
+    <div class="container content" id="home">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 id="heading">Yantarne<span class="bgRed">.FM</span></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Media controls -->
+  <nav class="navbar navbar-default navbar-fixed-bottom media-controls">
+    <div class="container">
+      <div class="inline-block">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="navbar-width">
+            <div id='rbcloud_nowplaying11763'></div>
+            <script src='https://c28.radioboss.fm/w/nowplaying.js?u=346&amp;wid=11763&amp;nl=1&amp;nnt=1'></script>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><button id="play" type="button" class="btn btn-default btn-circle btn-lg"><i
+                class="fa fa-play"></i></button></li>
+          <li class="navbar-volume hidden-xs">
+            <input id="volume" data-slider-id="volumeSlider" type="text" data-slider-min="1" data-slider-max="100"
+              data-slider-step="2" data-slider-value="100" data-slider-tooltip="hide" class="volume-md" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Partners -->
+  <section class="partners" id="partners">
+    <h1 class="title">Our Partners</h1>
+    <div class="carousel owl-carousel">
+      <a href="https://www.facebook.com/yantarnefm-103410848475322/" target="_blank" class="card">
+        <div class="box">
+          <img src="assets/img/yantarnefm.png" alt="Yantarne logo">
+          <div class="text">Yantarne FM</div>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/luxfmlviv/" target="_blank" class="card">
+        <div class="box">
+          <img src="assets/img/radiolux.png" alt="radiolux logo">
+          <div class="text">Радіолюкс FM</div>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/zolochivcitycouncil" target="_blank" class="card">
+        <div class="box">
+          <img src="assets/img/NA.png" alt="NA">
+          <div class="text">Золочівська Міська Рада</div>
+        </div>
+      </a>
+    </div>
+    <div class="support">
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info">
+        <div class="card" id="address">
+          <i class="icon fas fa-envelope"></i>
+        </div>
+      
+        <div class="card" id="phoneNumber">
+          <i class="icon fas fa-phone"></i>
+        </div>
+      
+        <div class="card" id="location">
+          <i class="icon fas fa-map-marker-alt"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer__row">
+      <a href="https://www.facebook.com/" target="_blank" class="row__item facebook__row">
+        <h1 class="item__title">Facebook</h1>
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" class="row__item insta__row">
+        <h1 class="item__title">Instagram</h1>
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <div class="footer__row">
+      <a href="https://soundcloud.com/" target="_blank" class="row__item sound__row">
+        <h1 class="item__title">Soundcloud</h1>
+        <i class="fab fa-soundcloud"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank" class="row__item twitter__row">
+        <h1 class="item__title">Twitter</h1>
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+    <div class="footer__row">
+      <a href="https://m.youtube.com/" target="_blank" class="row__item youtube__row">
+        <h1 class="item__title">YouTube</h1>
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Bootstrap JS, then our app -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.shoutcast.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap-slider.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
